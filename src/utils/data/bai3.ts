@@ -1,48 +1,58 @@
 export default [
   {
-    title: '1.	Khái niệm số thập phân. Các hàng của số thập phân',
+    title: '1.	HTML Links',
     contents: [
-      'Phân số thập phân 1/10 có thể được viết thành 0,1. 0,1 là một số thập phân và được đọc là không phẩy một.',
-      'Phân số thập phân 1/100 có thể được viết thành 0,01. 0,01 là một số thập phân và được đọc là không phẩy không một.',
-      'Phân số thập phân 1/1000 có thể được viết thành 0,001. 0,001 là một số thập phân và được đọc là không phẩy không không một.',
+      'Thẻ <a> xác định siêu liên kết, được sử dụng để liên kết từ trang này sang trang khác',
+      'Thuộc tính title : chỉ định thông tin bổ sung và khi di chuyển vào trong phần tử trong web sẽ hiển thị title.',
+      'Thuộc tính target chỉ định nơi để mở tài liệu được liên kết',
     ],
     img: require('assets/images/b3a1.png'),
   },
   {
-    title: [
-      '2.	So sánh hai số thập phân',
-      'Khi so sánh các số thập phân, ta thực hiện các bước sau:',
-    ],
+    title: ['2.	Email links'],
     contentWithImg: [
       {
         img: require('assets/images/b3a2.png'),
         contents: [
-          'So sánh phần nguyên hai số: số nào có phần nguyên lớn hơn thì số đó lớn hơn:',
-        ],
-      },
-      {
-        img: require('assets/images/b3a3.png'),
-        contents: [
-          'Nếu phần nguyên bằng nhau thì so sánh phần thập phân bắt đầu từ hàng phần mười và cứ thế giảm dần, đến một hàng nào đó, chữ số tương ứng của số nào lớn hơn thì số đó lớn hơn:',
-        ],
-      },
-      {
-        img: require('assets/images/b3a4.png'),
-        contents: [
-          'Nếu hai số có phần nguyên và phần thập phân bằng nhau thì hai số đó bằng nhau.',
+          'Email links: Mở một email gửi đi  thay vì liên kết đến một tài nguyên hoặc một trang',
         ],
       },
     ],
   },
   {
-    title:
-      '3.	Viết các số đo độ dài, khối lượng, diện tích dưới dạng số thập phân',
+    title: '3.	Đa phương tiện',
     subcontents: [
       {
+        title: 'a) Images ',
+        contentWithImg: [
+          {
+            img: require('assets/images/b3a3.png'),
+            contents: [
+              '<img>  được sử dụng để nhúng một hình ảnh đơn giản vào một trang web',
+              'Thuộc tính:',
+              'src:  Chỉ định URL của một hình ảnh',
+              'alt: Chỉ định một văn bản thay thế cho một hình ảnh',
+            ],
+          },
+        ],
+      },
+      {
+        title: 'b) Audios',
+        contentWithImg: [
+          {
+            img: require('assets/images/b3a4.png'),
+            contents: [
+              '<audio> xác định âm thanh, chẳng hạn như nhạc hoặc các luồng âm thanh khác.',
+            ],
+          },
+        ],
+      },
+      {
+        title: 'b) Video',
         contentWithImg: [
           {
             img: require('assets/images/b3a5.png'),
-            contents: [],
+            contents: ['<video>được sử dụng để hiển thị video trên trang web.'],
           },
         ],
       },

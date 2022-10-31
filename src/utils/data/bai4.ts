@@ -1,126 +1,107 @@
 export default [
   {
-    title: '4. Phép cộng và phép trừ các số thập phân',
+    title: '1. Form Validation',
     contents: [
-      'Phép cộng và phép trừ các số thập phân được thực hiện như các số tự nhiên.',
-      'Lưu ý: Khi đặt tính và tính, dấu phẩy của các số hạng (số bị trừ và số trừ) và của tổng (hiệu) phải thẳng hàng.',
+      '‘required’: Chỉ định xem trường biểu mẫu có cần được điền trước khi có thể gửi biểu mẫu hay không.',
+      '‘Minlength’ và ‘maxlength’: Chỉ định độ dài tối thiểu và tối đa của dữ liệu dạng văn bản (string).',
+      '‘Min’ và ‘max’: Chỉ định giá trị tối thiểu và lớn nhất của các loại đầu vào số.',
+      '‘Type’: Chỉ định dữ liệu cần phải là một số, một địa chỉ email hay một số loại đặt trước cụ thể khác.',
     ],
     img: require('assets/images/b4a1.png'),
   },
   {
-    title: '5. Phép nhân các số thập phân',
+    title: '2. HTML Table',
     contentWithImg: [
       {
         img: require('assets/images/b4a2.png'),
         contents: [
-          'Phép nhân các số thập phân được thực hiện như sau:',
-          'Bước 1: Nhân như nhân các số tự nhiên.',
-          'Bước 2: Đếm xem trong phần thập phân của cả hai thừa số có tổng cộng bao nhiêu chữ số (phần thập phân của số tự nhiên có 0 chữ số) rồi dùng dấu phẩy tách ở tích ra bấy nhiêu chữ số từ phải sang trái.',
+          'Table: Tập hợp dữ liệu có cấu trúc bao gồm các hàng và cột (dữ liệu dạng bảng)',
+        ],
+      },
+      {
+        img: require('assets/images/b4a3.png'),
+        contents: [
+          'Thuộc tính của table:',
+          'Text-align : Thuộc tính này cho biết bảng phải được căn chỉnh như thế nào bên trong tài liệu chứa. Nó có thể có các giá trị sau: (letf, center, right)',
+          'Background-color : Chỉ định màu nền của bảng.',
+          'Border : Thuộc tính này xác định kích thước của khung bao quanh bảng, tính bằng pixel.',
+        ],
+      },
+      {
+        img: require('assets/images/b4a4.png'),
+        contents: [
+          'Border-collapse: Đặt xem có nên thu gọn các đường viền bảng thành một đường viền duy nhất hay không',
+          'Padding: Kiểm soát khoảng cách giữa đường viền và nội dung trong bảng',
         ],
       },
     ],
   },
   {
-    title: '6. Phép chia các số thập phân',
+    title: '3. HTML Form',
     subcontents: [
       {
-        title: '6.1.	Phép chia số thập phân cho số tự nhiên',
         contentWithImg: [
-          {
-            contents: [
-              'Ta thực hiện các bước sau:',
-              'Chia phần nguyên của số bị chia cho số chia.',
-              'Viết dấu phẩy vào bên phải thương số trước khi lấy chữ số hàng phần mười của số bị chia để chia tiếp.',
-              'Tiếp tục như vậy cho đến khi chia hết các hàng của số bị chia.',
-            ],
-          },
-        ],
-      },
-      {
-        title:
-          '6.2.	Phép chia số tự nhiên cho số tự nhiên nhưng có kết quả là số thập phân',
-        contentWithImg: [
-          {
-            contents: [
-              'Ta thực hiện các bước sau: ',
-              'Bước 1: Chia số bị chia cho số chia như chia các số tự nhiên.',
-              'Bước 2: Viết dấu phẩy vào bên phải thương số',
-              'Bước 3: Viết một chữ số 0 vào bên phải số dư và tiếp tục chia.',
-              'Bước 4: Nếu còn dư, tiếp tục thực hiện bước 3 đối với số dư mới.',
-            ],
-          },
-        ],
-      },
-      {
-        title: '6.3.	Phép chia số tự nhiên cho số thập phân',
-        contentWithImg: [
-          {
-            img: require('assets/images/b4a3.png'),
-            contents: [
-              'Ta thực hiện các bước sau:',
-              'Bước 1: Đếm xem trong phần thập phân của số chia có bao nhiêu chữ số thì thêm vào bên phải số bị chia bấy nhiêu chữ số 0. ',
-              'Bước 2: Bỏ dấu phẩy ở số chia.',
-              'Bước 3: Chia như chia các số tự nhiên.',
-            ],
-          },
-        ],
-      },
-      {
-        title: '6.4.	Phép chia số thập phân cho số thập phân',
-        contentWithImg: [
-          {
-            img: require('assets/images/b4a3.png'),
-            contents: [
-              'Nếu số bị chia có nhiều chữ số ở phần thập phân hơn số chia, ta thực hiện các bước sau:',
-              'Bước 1: Đếm xem trong phần thập phân của số chia có bao nhiêu chữ số thì dịch dấu phẩy của số bị chia sang bên phải bấy nhiêu chữ số.',
-              'Bước 2: Bỏ dấu phẩy ở số chia.',
-              'Bước 3: Thực hiện phép chia như chia số thập phân cho số tự nhiên.',
-            ],
-          },
-          {
-            img: require('assets/images/b4a4.png'),
-            contents: [
-              'Nếu số bị chia và số chia có số chữ số ở phần thập phân bằng nhau, ta thực hiện các bước sau:',
-              'Bước 1: Bỏ dấu phẩy ở cả số chia và số bị chia.',
-              'Bước 2: Thực hiện phép chia như chia các số tự nhiên',
-            ],
-          },
           {
             img: require('assets/images/b4a5.png'),
             contents: [
-              'Nếu số bị chia có ít chữ số ở phần thập phân hơn số chia, ta thực hiện các bước sau:',
-              'Bước 1: Đếm xem trong phần thập phân của số bị chia có bao nhiêu chữ số thì dịch dấu phẩy của số chia sang bên phải bấy nhiêu chữ số.',
-              'Bước 2: Bỏ dấu phẩy ở số chia.',
-              'Bước 3: Thực hiện phép chia như chia một số tự nhiên cho số thập phân.',
+              'Phần tử <form> trong HTML xác định một biểu mẫu được sử dụng để thu thập thông tin đầu vào của người dùng. Một biểu mẫu HTML chứa các thành phần biểu mẫu.',
+              'Form elements: Là các loại phần tử đầu vào khác nhau, như: text fields, checkboxes, radio buttons, submit buttons,...',
             ],
           },
         ],
       },
       {
-        title: '6.5.	Tỉ số phần trăm. Các bài toán về tỉ số phần trăm.',
+        title: '3.1.	Cấu trúc của HTML Form',
         contentWithImg: [
           {
             img: require('assets/images/b4a6.png'),
-            contents: ['Tỉ số phần trăm là tỉ số giữa một số và 100.'],
+            contents: [
+              'Cấu trúc của HTML Form: Các thẻ bạn sử dụng để quản lý cấu trúc chung của biểu mẫu bao gồm: ',
+              '<form> được sử dụng để tạo một biểu mẫu HTML cho đầu vào của người dùng',
+            ],
           },
+        ],
+      },
+      {
+        contentWithImg: [
           {
             img: require('assets/images/b4a7.png'),
             contents: [
-              'Muốn tìm tỉ số phần trăm của hai số a và b, ta thực hiện như sau:',
-              'Tìm thương giữa a và b.',
-              'Lấy thương tìm được nhân với 100 rồi viết kí hiệu % vào bên phải kết quả.',
+              'Cấu trúc của HTML Form: Các thẻ bạn sử dụng để quản lý cấu trúc chung của biểu mẫu bao gồm:',
+              '<fieldset>: được sử dụng để nhóm dữ liệu liên quan trong một biểu mẫu.',
+              '<legend>: xác định chú thích cho <fieldset> phần tử.',
+              '<label>: Xác định nhãn cho tiện ích biểu mẫu HTML',
+              '<button>: Xác định một nút có thể nhấp',
+              '<input>: Có thể được hiển thị theo nhiều cách, tùy thuộc vào loại thuộc tính',
             ],
           },
+        ],
+      },
+      {
+        contentWithImg: [
           {
             img: require('assets/images/b4a8.png'),
             contents: [
-              'Muốn tìm a% của số b, ta lấy b chia 100 rồi nhân với a hoặc lấy b nhân với a rồi chia 100.',
+              '<select>:  xác định danh sách thả xuống',
+              '<option>  xác định một tùy chọn có thể được chọn.',
             ],
           },
+        ],
+      },
+      {
+        title: '3.2.	Gửi form dữ liệu',
+        contentWithImg: [
           {
             img: require('assets/images/b4a9.png'),
             contents: [
-              'Muốn tìm một số biết a% của nó bằng b, ta lấy b chia a rồi nhân với 100, hoặc lấy b nhân với 100 rồi chia a.',
+              'Về phía client: Xác định cách gửi dữ liệu',
+              'Thuộc tính Action: Xác định nơi dữ liệu được gửi. Giá trị của nó phải là một URL tương đối hoặc tuyệt đối hợp lệ',
+            ],
+          },
+          {
+            img: require('assets/images/b4a10.png'),
+            contents: [
+              'Thuộc tính Method: Xác định cách dữ liệu được gửi. Dữ liệu biểu mẫu HTML có thể được truyền qua POST Method hoặc GET Method',
             ],
           },
         ],

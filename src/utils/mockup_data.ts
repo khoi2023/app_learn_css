@@ -1,31 +1,31 @@
 export const TOPIC = [
   {
     file: 'bai1',
-    title: 'Ôn tập và bổ sung về phân số phần 1',
+    title: 'Nhập môn HTML',
   },
   {
     file: 'bai2',
-    title: 'Ôn tập và bổ sung về phân số phần 2',
+    title: 'HTML Text',
   },
   {
     file: 'bai3',
-    title: 'Số thập phân. Các phép toán với số thập phân phần 1',
+    title: 'HTML Links',
   },
   {
     file: 'bai4',
-    title: 'Số thập phân. Các phép toán với số thập phân phần 2',
+    title: 'HTML Table',
   },
   {
     file: 'bai5',
-    title: 'Hình học phần 1',
+    title: 'Làm quen với CSS',
   },
   {
     file: 'bai6',
-    title: 'Hình học phần 2',
+    title: 'Styling Text',
   },
   {
     file: 'bai7',
-    title: 'Số đo thời gian. Toán chuyển động đều',
+    title: 'Selectors',
   },
 ];
 

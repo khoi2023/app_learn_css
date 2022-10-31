@@ -1,54 +1,54 @@
 export default [
   {
-    title: '1.	Tam giác',
+    title: '1.	CSS là gì',
     contents: [
-      'Diện tích của một tam giác bằng độ dài đáy nhân chiều cao rồi chia 2:',
+      'CSS là một ngôn ngữ mô tả phong cách của một tài liệu HTML.',
+      'CSS là viết tắt của Cascading Style Sheets',
+      'CSS mô tả cách các phần tử HTML sẽ được hiển thị trên màn hình, trên giấy, trong lời nói hoặc trên các phương tiện khác.',
     ],
     img: require('assets/images/b5a1.png'),
   },
   {
-    title: '2.	Hình thang',
+    title: '2. Cú pháp CSS',
     contentWithImg: [
       {
         img: require('assets/images/b5a2.png'),
-        contents: ['Hình thang là một tứ giác có một cặp cạnh song song:'],
-      },
-      {
-        img: require('assets/images/b5a3.png'),
         contents: [
-          'Diện tích hình thang bằng tổng độ dài hai đáy nhân với chiều cao rồi chia 2:',
+          'Mục tiêu cơ bản của ngôn ngữ CSS là cho phép công cụ trình duyệt vẽ các phần tử của trang bằng các tính năng cụ thể, như màu sắc, vị trí hoặc trang trí.',
+          'Cú pháp CSS bao gồm: thuộc tính (property), giá trị (value)',
+          'Khai báo CSS : 1 thuộc tính và giá trị được gọi là khai báo',
+          'Khối khai báo CSS: Các khai báo được nhóm thành các khối',
         ],
       },
     ],
   },
   {
-    title: '3.	Hình tròn',
+    title: '3.	Inline, Internal, External',
     subcontents: [
       {
         title: '',
         contentWithImg: [
           {
-            img: require('assets/images/b5a4.png'),
+            img: require('assets/images/b5a3.png'),
             contents: [
-              'Nối tâm O với một điểm A trên đường tròn. Đọan thẳng OA được gọi là bán kính của hình tròn. Tất cả các bán kính của một đường tròn đều bằng nhau:',
+              'Inline - bằng cách sử dụng thuộc tính style trong các phần tử HTML.',
+              'Kiểu inline: Viết trực tiếp trên thẻ thông qua “style”.',
             ],
           },
           {
             img: require('assets/images/b5a5.png'),
             contents: [
-              'Đoạn thẳng nối hai điểm M, N bất kì trên đường tròn và đi qua tâm O được gọi là đường kính của hình tròn. Trong một hình tròn, độ dài đường kính gấp hai lần bán kính.',
+              'Internal - bằng cách sử dụng phần tử <style> trong phần <head>.',
+              'Kiểu Internal: Chúng ta sẽ code bên trong thẻ “ <style> code css </style>”.',
             ],
           },
           {
             img: require('assets/images/b5a6.png'),
             contents: [
-              'Chu vi của một đường tròn bằng độ dài đường kính nhân với 3,14 (hoặc hai lần độ dài bán kính nhân với 3,14):',
-            ],
-          },
-          {
-            img: require('assets/images/b5a7.png'),
-            contents: [
-              'Diện tích của một hình tròn bằng độ dài bán kính nhân với chính nó rồi nhân bới 3,14:',
+              'External - bằng cách sử dụng tệp CSS bên ngoài.',
+              'Kiểu External: Chúng ta cần tạo một file style.css (có phần đuôi là .css) và sau đó import vào file HTML thông qua thẻ link.',
+              'Bước 1: Tạo một file style.css với nội dung sau',
+              'Bước 2: Tạo một file index.html cùng cấp với file style.css',
             ],
           },
         ],

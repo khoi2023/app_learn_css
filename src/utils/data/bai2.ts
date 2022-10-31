@@ -1,55 +1,78 @@
 export default [
   {
-    title: '4.	Phân số thập phân',
+    title: '1.	Heading',
     contents: [
-      'Các phân số có mẫu là 10; 100; 1000; … được gọi là phân số thập phân.',
-      'Một số phân số có thể viết thành phân số thập phân. ',
+      'Có 6 phần tử heading  — <h1>, <h2>, <h3>, <h4>, <h5>  và  <h6>',
+      'Mỗi phần tử đại diện cho một cấp độ nội dung khác nhau trong tài liệu; <h1> đại diện cho tiêu đề chính, <h2> đại diện cho tiêu đề phụ, <h3> đại diện cho tiêu đề phụ phụ, v.v.',
     ],
     img: require('assets/images/b2a1.png'),
   },
   {
-    title: '5.	Ôn tập các phép tính với phân số',
+    title: '2.	Văn bản',
     contentWithImg: [
       {
         img: require('assets/images/b2a2.png'),
-        contents: ['Muốn cộng (hoặc trừ) hai phân số:'],
+        contents: [
+          'Phần tử <p> đại điện cho một đoạn văn ( paragraph ).',
+          'Một đoạn văn ( paragraph ) luôn bắt đầu trên một dòng mới và các trình duyệt sẽ tự động thêm một số khoảng trắng (lề) vào trước và sau một đoạn văn.',
+        ],
       },
       {
         img: require('assets/images/b2a3.png'),
         contents: [
-          'Muốn nhân hai phân số, ta lấy tử số nhân với tử số, mẫu số nhân với mẫu số',
-          'Muốn chia hai phân số, ta lấy phân số thứ nhất nhân với nghịch đảo của phân số thứ hai',
+          'Cấu trúc phân cấp: ',
+          'Chỉ nên sử dụng một <h1> duy nhất trên mỗi trang - đây là tiêu đề cấp cao nhất và tất cả các tiêu đề khác nằm bên dưới tiêu đề này trong hệ thống phân cấp.',
+          'Đảm bảo rằng bạn sử dụng các tiêu đề theo đúng thứ tự trong hệ thống phân cấp.',
+          'Trong số sáu cấp độ tiêu đề có sẵn, bạn nên sử dụng không quá ba cấp độ trên mỗi trang, trừ khi bạn cảm thấy cần thiết',
         ],
       },
     ],
   },
   {
-    title: '6.	Hỗn số',
+    title: '3.	HTML List',
     subcontents: [
       {
         contentWithImg: [
           {
             img: require('assets/images/b2a3.png'),
             contents: [
-              'Hỗn số là một số bao gồm có cả phần nguyên là một số tự nhiên và phần phân số là một phân số bé hơn 1. ',
-            ],
-          },
-          {
-            img: require('assets/images/b2a4.png'),
-            contents: [
-              'Khi đọc (viết) hỗn số ta đọc (viết) phần nguyên trước rồi đọc (viết) phần phân số. ',
+              'Có ba loại List khác nhau trong HTML và mỗi loại có một mục đích và ý nghĩa cụ thể:',
+              'Danh sách không có thứ tự ( Unordered list )',
+              'Danh sách có thứ tự ( Ordered list )',
+              'Danh sách mô tả ( Description list )',
             ],
           },
         ],
       },
       {
+        title: '3.1. Danh sách không thứ tự ( Unordered list )',
         contentWithImg: [
           {
             img: require('assets/images/b2a5.png'),
             contents: [
-              'Có thể viết hỗn số thành một phân số có:',
-              'Tử số bằng tích của phần nguyên và mẫu số ở phần phân số cộng với tử số ở phần phân số.',
-              'Mẫu số bằng mẫu số ở phần phân số.',
+              'Được sử dụng để tạo danh sách các mục có liên quan, không theo thứ tự cụ thể.',
+            ],
+          },
+        ],
+      },
+      {
+        title: '3.2. Danh sách thứ tự ( Ordered list )',
+        contentWithImg: [
+          {
+            img: require('assets/images/b2a4.png'),
+            contents: [
+              'Được sử dụng để tạo danh sách các mục liên quan, theo một thứ tự cụ thể.',
+            ],
+          },
+        ],
+      },
+      {
+        title: '3.3. Danh sách mô tả ( Description list )',
+        contentWithImg: [
+          {
+            img: require('assets/images/b2a6.png'),
+            contents: [
+              'Được sử dụng để tạo danh sách các thuật ngữ và mô tả của chúng.',
             ],
           },
         ],
