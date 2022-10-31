@@ -4,11 +4,11 @@
 
 ## Step 1: Clone my source code
 
-- `git clone https://github.com/kienmarco2408/math_app`
+- `git clone https://github.com/kienmarco2408/app_learn_css
 
 ## Step 2: Access the project directory
 
-- `cd math_app`
+- `cd app_learn_css`
 
 ## Step 3: Install dependencies
 
